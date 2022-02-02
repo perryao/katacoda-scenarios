@@ -16,10 +16,14 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "host01": [{ "file": "*", "target": "/root/demo" }]
     }
   },
   "environment": {
-    "uilayout": "vscode-terminal-split"
+    "uilayout": "vscode-terminal-split",
+    "uieditorpath": "/root/demo"
   },
   "backend": {
     "imageid": "kubernetes-cluster-running:1.18"
