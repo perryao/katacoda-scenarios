@@ -19,8 +19,7 @@
     }
   },
   "environment": {
-    "uilayout": "vscode-terminal-split",
-    "uieditorpath": "/root/ethos"
+    "uilayout": "vscode-terminal-split"
   },
   "backend": {
     "imageid": "kubernetes-cluster-running:1.21"
